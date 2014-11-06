@@ -71,6 +71,25 @@ String eventType = newEvent.getString("eventType");
 		bottom: 0px !important;
 		
 	}
+	
+	.panel{
+		margin-bottom: 0px !important;
+		position: relative;
+	}
+	
+	
+	#infoButton{
+		width: 14px;
+		z-index: 99;
+		position: absolute;
+		right: 10px;
+		top: 75px;
+	}
+	
+	.white, .white a {
+  color: #fff;
+}
+	
 	</style>
 	
 
@@ -92,7 +111,7 @@ String eventType = newEvent.getString("eventType");
       <div class="container">
         <div class="navbar-header">
 <a class="navbar-brand" onclick="goBack()"><span class="glyphicon glyphicon-chevron-left"></span>Back</a>
-<a class="navbar-brand pull-right" onclick="goNext('<%= eventType %>')">Next<span class="glyphicon glyphicon-chevron-right"></span></a>
+<!-- <a class="navbar-brand pull-right" onclick="goNext('<%= eventType %>')">Next<span class="glyphicon glyphicon-chevron-right"></span></a> -->
         </div>        
       </div>
     </div>
@@ -104,25 +123,37 @@ String eventType = newEvent.getString("eventType");
 	<div id="accordion">
 	<% if (eventType.equals("Meal")) { %>
 		 <div class="panel">
-		<div data-toggle="collapse" data-target="#pic1" data-parent="#accordion">
-			<img src="images/NewRestTemplate.png">
-		</div>
+		 
+		 <a href="eventConfirmation.jsp?location=Ippudo">
+		 <img src="images/NewRestTemplate.png">
+		 </a>
+		<div id = "infoButton" data-toggle="collapse" data-target="#pic1" data-parent="#accordion">
+				<span class="glyphicon glyphicon-info-sign white"></span>
+		</div> 
 		<div id="pic1" class="collapse "><img src="images/RestaurantFull3.png"></div>
 		</div>
 		
 		 <div class="panel">
-		<div data-toggle="collapse" data-target="#pic2" data-parent="#accordion">
-			<img src="images/NewRestTemplate.png">
-		</div>
+		 <a href="eventConfirmation.jsp?location=Kiseki">
+		 <img src="images/NewRestTemplate.png">
+		 </a>
+		<div id = "infoButton" data-toggle="collapse" data-target="#pic2" data-parent="#accordion">
+				<span class="glyphicon glyphicon-info-sign white"></span>
+		</div> 
 		<div id="pic2" class="collapse "><img src="images/RestaurantFull3.png"></div>
 		</div>
 		
+		
 		 <div class="panel">
-		<div data-toggle="collapse" data-target="#pic3" data-parent="#accordion">
-			<img src="images/NewRestTemplate.png">
+		 <a href="eventConfirmation.jsp?location=Mikuni">
+		 <img src="images/NewRestTemplate.png">
+		 </a>
+		<div id = "infoButton" data-toggle="collapse" data-target="#pic3" data-parent="#accordion">
+				<span class="glyphicon glyphicon-info-sign white"></span>
+		</div> 
+		<div id="pic3" class="collapse "><img src="images/RestaurantFull3.png"></div>
 		</div>
-		<div id="pic3" class="collapse"><img src="images/Restaurant3Full.png"></div>
-		</div>
+		
 	 <% } else { %>
         	<div><img src="images/Location1.png"><img src="images/Location3Full.png"></div>
             <div><img src="images/Location2.png"><img src="images/Location3Full.png"></div>
