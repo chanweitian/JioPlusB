@@ -103,31 +103,31 @@ session.setAttribute("newEvent",newEvent);
     <div class="welcomeSlides">
     	<% if (eventType.equals("Meal")) { %>
 	        <a href="mealOptionsSelector.jsp?eid=<%=eventId%>&eventDate=28 Oct 2014&eventTime=6:00PM-9:00PM">
-  				<img style="float:left" src="images/NewWeatherTemplate.png" width="320" height="130" >
+  				<img style="float:left" src="images/28_Oct.png" width="320" height="130" >
 			</a>
-	        <a href="mealOptionsSelector.jsp?eid=<%=eventId%>&eventDate=28 Oct 2014&eventTime=6:00PM-9:00PM">
-  				<img style="float:left" src="images/NewWeatherTemplate.png" width="320" height="130" >
+	        <a href="mealOptionsSelector.jsp?eid=<%=eventId%>&eventDate=03 Nov 2014&eventTime=8:00PM-10:00PM">
+  				<img style="float:left" src="images/3_Nov.png" width="320" height="130" >
 			</a>
-			<a href="mealOptionsSelector.jsp?eid=<%=eventId%>&eventDate=28 Oct 2014&eventTime=6:00PM-9:00PM">
-  				<img style="float:left" src="images/NewWeatherTemplate.png" width="320" height="130" >
+			<a href="mealOptionsSelector.jsp?eid=<%=eventId%>&eventDate=10 Nov 2014&eventTime=5:30PM-8:00PM">
+  				<img style="float:left" src="images/10_Nov.png" width="320" height="130" >
 			</a>
-			<a href="mealOptionsSelector.jsp?eid=<%=eventId%>&eventDate=28 Oct 2014&eventTime=6:00PM-9:00PM">
-  				<img style="float:left" src="images/NewWeatherTemplate.png" width="320" height="130" >
+			<a href="mealOptionsSelector.jsp?eid=<%=eventId%>&eventDate=20 Nov 2014&eventTime=7:00PM-9:30PM">
+  				<img style="float:left" src="images/20_Nov.png" width="320" height="130" >
 			</a>
 	    <% } else { %>
-	    	<a href="mealOptionsSelector.jsp?eid=<%=eventId%>&eventDate=28 Oct 2014&eventTime=6:00PM-9:00PM">
-  				<img style="float:left" src="images/NewWeatherTemplate.png" width="320" height="130" >
+	    	
+			<a href="mealOptionsSelector.jsp?eid=<%=eventId%>&eventDate=05 Dec 2014&eventTime=12:00PM-3:00PM">
+  				<img style="float:left" src="images/5_Dec.png" width="320" height="130" >
 			</a>
-			<a href="mealOptionsSelector.jsp?eid=<%=eventId%>&eventDate=28 Oct 2014&eventTime=6:00PM-9:00PM">
-  				<img style="float:left" src="images/NewWeatherTemplate.png" width="320" height="130" >
+			<a href="mealOptionsSelector.jsp?eid=<%=eventId%>&eventDate=06 Dec 2014&eventTime=8:00AM-11:00AM">
+  				<img style="float:left" src="images/6_Dec.png" width="320" height="130" >
 			</a>
-			<a href="mealOptionsSelector.jsp?eid=<%=eventId%>&eventDate=28 Oct 2014&eventTime=6:00PM-9:00PM">
-  				<img style="float:left" src="images/NewWeatherTemplate.png" width="320" height="130" >
-			</a>
-			<a href="mealOptionsSelector.jsp?eid=<%=eventId%>&eventDate=28 Oct 2014&eventTime=6:00PM-9:00PM">
-  				<img style="float:left" src="images/NewWeatherTemplate.png" width="320" height="130" >
+			<a href="mealOptionsSelector.jsp?eid=<%=eventId%>&eventDate=17 Dec 2014&eventTime=10:00AM-1:00PM">
+  				<img style="float:left" src="images/17_Dec.png" width="320" height="130" >
 			</a>
 	    <% } %>
+	    
+	 
     </div>
     </body>
 </html>

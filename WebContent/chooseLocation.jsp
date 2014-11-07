@@ -125,7 +125,7 @@ String eventType = newEvent.getString("eventType");
 		 <div class="panel">
 		 
 		 <a href="eventConfirmation.jsp?location=Ippudo">
-		 <img src="images/NewRestTemplate.png">
+		 <img src="images/Ippudo.png">
 		 </a>
 		<div id = "infoButton" data-toggle="collapse" data-target="#pic1" data-parent="#accordion">
 				<span class="glyphicon glyphicon-info-sign white"></span>
@@ -135,7 +135,7 @@ String eventType = newEvent.getString("eventType");
 		
 		 <div class="panel">
 		 <a href="eventConfirmation.jsp?location=Kiseki">
-		 <img src="images/NewRestTemplate.png">
+		 <img src="images/Kiseki.png">
 		 </a>
 		<div id = "infoButton" data-toggle="collapse" data-target="#pic2" data-parent="#accordion">
 				<span class="glyphicon glyphicon-info-sign white"></span>
@@ -146,7 +146,7 @@ String eventType = newEvent.getString("eventType");
 		
 		 <div class="panel">
 		 <a href="eventConfirmation.jsp?location=Mikuni">
-		 <img src="images/NewRestTemplate.png">
+		 <img src="images/Mikuni.png">
 		 </a>
 		<div id = "infoButton" data-toggle="collapse" data-target="#pic3" data-parent="#accordion">
 				<span class="glyphicon glyphicon-info-sign white"></span>
@@ -155,9 +155,40 @@ String eventType = newEvent.getString("eventType");
 		</div>
 		
 	 <% } else { %>
-        	<div><img src="images/Location1.png"><img src="images/Location3Full.png"></div>
-            <div><img src="images/Location2.png"><img src="images/Location3Full.png"></div>
-            <div><img src="images/Location3.png"><img src="images/Location3Full.png"></div>
+	 
+	 <div class="panel">
+		 
+		 <a href="eventConfirmation.jsp?location=Cage@Clementio">
+		 <img src="images/Cage_Clementi.png">
+		 </a>
+		<div id = "infoButton" data-toggle="collapse" data-target="#pic1" data-parent="#accordion">
+				<span class="glyphicon glyphicon-info-sign white"></span>
+		</div> 
+		<div id="pic1" class="collapse "><img src="images/Location3Full.png"></div>
+		</div>
+		
+		 <div class="panel">
+		 <a href="eventConfirmation.jsp?location=Jurong Stadium">
+		 <img src="images/Jurong_Stadium.png">
+		 </a>
+		<div id = "infoButton" data-toggle="collapse" data-target="#pic2" data-parent="#accordion">
+				<span class="glyphicon glyphicon-info-sign white"></span>
+		</div> 
+		<div id="pic2" class="collapse "><img src="images/Location3Full.png"></div>
+		</div>
+		
+		
+		 <div class="panel">
+		 <a href="eventConfirmation.jsp?location=NTU Guild House">
+		 <img src="images/NTU_Guild.png">
+		 </a>
+		<div id = "infoButton" data-toggle="collapse" data-target="#pic3" data-parent="#accordion">
+				<span class="glyphicon glyphicon-info-sign white"></span>
+		</div> 
+		<div id="pic3" class="collapse "><img src="images/Location3Full.png"></div>
+		</div>
+	 
+
         <% }
         %>
 

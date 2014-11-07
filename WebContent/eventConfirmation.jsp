@@ -73,9 +73,9 @@ o1.put("eventLocation", request.getParameter("location"));
 	     		<div class="container">
 	     			<div class="customized-row">
 		     			<% if (eventType.equals("Meal")) { %>
-							<img class="img-rounded" alt="Rounded Image" src="images/Meal.png" height="20%" width="100%" >
+							<img class="img-rounded" alt="Rounded Image" src="images/meal.png" height="20%" width="100%" >
 						<% } else { %>
-							<img class="img-rounded" alt="Rounded Image" src="images/Activity.png" height="20%" width="100%" >
+							<img class="img-rounded" alt="Rounded Image" src="images/activity.png" height="20%" width="100%" >
 						<% } %>
 		     		</div> 
 	     		</div>
